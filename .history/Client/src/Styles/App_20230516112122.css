@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+.dark {
+    background-color: #2D3941 !important;
+    color: whitesmoke !important;
+}
+
+.App {
+    background-color: #dddedd;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

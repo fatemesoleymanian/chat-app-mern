@@ -1,0 +1,39 @@
+.sidebar-wrapper {
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+}
+
+.sb-header {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sb-search {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.search-box {
+    outline-width: 0px;
+    border: none;
+    font-size: 1.25rem;
+    margin-left: 10px;
+}
+
+.sb-conversations {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px;
+    flex: 1;
+}

@@ -1,0 +1,32 @@
+.login-wrapper {
+    height: 90vh;
+    background-color: #f4f5f8;
+    width: 90vw;
+    display: flex;
+    border-radius: 20px;
+}
+
+.image-container {
+    flex: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    flex: 0.7;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #63d7b0;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+.login-text{
+    margin: 10px;
+}

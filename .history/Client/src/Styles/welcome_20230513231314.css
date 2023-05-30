@@ -1,0 +1,11 @@
+.welcome-container{
+    display: flex;
+    float: 0.7;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.welcome-logo{
+    height: 10vh;
+}

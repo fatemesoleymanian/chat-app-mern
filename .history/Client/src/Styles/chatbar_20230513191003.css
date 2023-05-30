@@ -1,0 +1,19 @@
+.chatbar-wrapper {
+    flex: 0.7;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chatarea-header {
+    background-color: orange;
+}
+
+.messages-container {
+    background-color: yellow;
+}
+
+.text-input-area {
+    background-color: aqua;
+}

@@ -1,0 +1,22 @@
+.sidebar-wrapper {
+    flex: 0.3;
+}
+
+.sb-header {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sb-search {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin: 10px;
+
+}
+
+.sb-conversations {}

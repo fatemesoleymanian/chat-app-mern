@@ -1,0 +1,15 @@
+.sidebar-wrapper {
+    flex: 0.3;
+}
+
+.sb-header {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin: 5px;
+    display: flex;
+}
+
+.sb-search {}
+
+.sb-conversations {}
