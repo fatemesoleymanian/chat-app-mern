@@ -1,0 +1,23 @@
+.search-box {
+    outline-width: 0px;
+    border: none;
+    font-size: 1.25rem;
+    margin-left: 10px;
+}
+.create-group-wrapper{
+    flex: 0.7;
+    align-self: center;
+    padding: 20px 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:50em) {
+    .create-group-wrapper{
+        flex: 1;
+
+    }
+}

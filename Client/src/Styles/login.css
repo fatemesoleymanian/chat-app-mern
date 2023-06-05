@@ -1,0 +1,66 @@
+.login-wrapper {
+    height: 90vh;
+    background-color: #f4f5f8;
+    width: 90vw;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.image-container {
+    flex: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    flex: 0.7;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #63d7b0;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.login-text {
+    margin-bottom: 70px;
+    font-weight: bolder;
+}
+
+
+@media only screen and (max-width:50em) {
+    .login-wrapper{
+        display: grid;
+    }
+    .image-container {
+        grid-column: 1 / span 3;
+        grid-row: 1;
+    }
+
+    .login-box {
+        grid-column: 1 / span 3;
+        grid-row: 3;
+    }
+    .login-box h2{
+        margin-bottom:35px ;
+        margin-top: 15px;
+    }
+}
+
+.switch-auth{
+    cursor: pointer;
+    color: #43386b;
+}
+.switch-auth:hover{
+    color: #63d7b0;
+}
+.switch-auth-text{
+    color: rgba(0, 0, 0, 0.54);
+}
